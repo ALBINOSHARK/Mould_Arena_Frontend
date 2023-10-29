@@ -1,0 +1,19 @@
+nav {
+  background: yellow;
+}
+
+ul {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+  /* float: right; */
+}
+
+li {
+  padding: 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
