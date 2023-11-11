@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  border: 1px solid;
+  flex-direction: row;
+  margin: 30px;
+  width: 95vw;
+  height: auto;
+}
+
+.container-img {
+  background-color: aqua;
+  flex: 1;
+}
+
+.container-img img{
+    /* mix-blend-mode: multiply; */
+    padding-top:40px ;
+    height: 11.8125rem ;
+    width: 19.5rem;
+}
+
+.container-text {
+  background-color: yellow;
+  flex: 3;
+}
+
+.container-text h1 {
+  padding: 10px;
+}
+
+.container-price {
+  background-color: aqua;
+  flex: 1;
+}
+.container-price h1 {
+  padding: 10px;
+}
+
+.text-list {
+  font-size: 18px;
+}
+
+li {
+  margin: 10px 0;
+}

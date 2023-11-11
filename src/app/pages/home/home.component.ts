@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  myValue:string= 'this is product';
+  myPrice:string =  'this is different'
+  price1:number = 20000
+  price2:number = 35000;
 }
